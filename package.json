@@ -1,0 +1,30 @@
+{
+  "name": "pro-logger",
+  "version": "0.0.1",
+  "description": "logger out-of-the-box",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcorbelli/pro-logger.git"
+  },
+  "author": {
+    "name": "Corbelli Mattia",
+    "email": "mattia.corbelli098@hotmail.it",
+    "url": "https://mattiacorbelli.dev"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "node": "^18.4.0",
+    "winston": "^3.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
