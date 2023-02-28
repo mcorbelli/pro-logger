@@ -180,4 +180,9 @@ class CustomLogger {
     }
 }
 
+export {
+    LoggingLevels,
+    HttpCodes,
+}
+
 export default CustomLogger;
